@@ -1,0 +1,33 @@
+.avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 6px;
+}
+
+.user_card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 340px;
+    height: fit-content;
+    border-radius: 6px;
+    border: 2px solid lightgrey;
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+.avatar_container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.user_name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user_description {
+    font-size: 20px;
+}
