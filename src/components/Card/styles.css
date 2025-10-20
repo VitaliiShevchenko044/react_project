@@ -1,7 +1,8 @@
 .avatar {
     height: 200px;
     width: 200px;
-    border-radius: 6px;
+    border-radius: 50% ;
+    align-self: center;
 }
 
 .user_card {
@@ -9,6 +10,7 @@
     flex-direction: column;
     gap: 10px;
     width: 340px;
+    min-height: 380px;
     height: fit-content;
     border-radius: 6px;
     border: 2px solid lightgrey;
@@ -16,12 +18,12 @@
     background-color: aliceblue;
 }
 
-.avatar_container {
+/* .avatar_container {
     width: 100%;
     height: fit-content;
     display: flex;
     justify-content: center;
-}
+} */
 
 .user_name {
     font-size: 24px;

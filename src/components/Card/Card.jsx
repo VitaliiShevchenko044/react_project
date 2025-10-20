@@ -1,20 +1,14 @@
 import "./styles.css";
 import { user } from "./data.js";
 
-function Card() {
-
+//props - це об'єкт за зопомогою якого ми передаємо дані від батьківського компонента в дочірній
+function Card({ avatarURL = "", firstName = "-", lastName, job = "-", hobbies = "-"}) {
   return (
     <div className="user_card">
-      <div className="avatar_container">
-      <img
-        src={user.avatarURL}
-        alt="user photo"
-        className="avatar"
-      />
-      </div>
-      <h2 className="user_name">Name: {user.firstName} {user.surname}</h2>
-      <p className="user_description">Job: {user.job}</p>
-      <p className="user_description">Hobbies: {user.hobbies.join(", ")}</p> 
+      <img src={avatarURL} alt="user photo" className="avatar" />
+      <h2 className="user_name">Fullname: {`${firstName} ${lastName}`}</h2>
+      <p className="user_description">Job: {job}</p>
+      <p className="user_description">Hobbies: {hobbies?.length ? hobbies.join(", ") : "no hobbies"}</p>
     </div>
   );
 }
