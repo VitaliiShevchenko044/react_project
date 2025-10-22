@@ -1,0 +1,21 @@
+.feedback_wrapper {
+    display: flex;
+    gap: 100px;
+    padding: 40px;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid lightgray;
+    border-radius: 6px;
+}
+
+.button_with_counter_container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 200px;
+}
+
+p {
+    font-size: 40px;
+    font-weight: bold;
+}

@@ -10,14 +10,14 @@ function LoginForm() {
         type="email"
         placeholder="Enter your email"
         label="Email:"
-      ></Input>
+      /> 
       <Input
         name="password"
         type="password"
         placeholder="Enter your password"
         label="Password:"
-      ></Input>
-      <Button name="login" type="submit"></Button>
+      />
+      <Button name="login" type="submit" />
     </form>
   );
 }
