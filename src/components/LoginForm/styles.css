@@ -1,0 +1,11 @@
+.login_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  border: 2px, solid lightgray;
+  border-radius: 6px;
+  height: fit-content;
+  width: 500px;
+  background-color: aliceblue;
+}
